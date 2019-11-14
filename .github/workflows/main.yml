@@ -8,5 +8,5 @@ jobs:
     - name: Run Snyk to check for vulnerabilities
       uses: snyk/actions/golang@master
       env:
-        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        SNYK_TOKEN: "d8abf0d2-9462-4e0c-acf0-3c2d54232e56"
         
